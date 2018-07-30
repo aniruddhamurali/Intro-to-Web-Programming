@@ -1,0 +1,52 @@
+body {
+  color:rgb(19, 189, 31);
+  background-color:rgb(15, 161, 117);
+  display: flex;
+  justify-content: left;
+}
+div.Title{
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  font-size: 360%;
+  text-shadow: 2px 2px 2px #52527a;
+  margin:20px;
+}
+
+.container {
+  min-width:650px;
+}
+
+@media (max-width: 650px) {
+  .container {
+    width: 100%;
+    min-width: auto;
+  }
+}
+
+.info-actions {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.info-actions input{
+  border-radius: 3px;
+  border-color: rgb(19, 189, 31);
+  width:150px;
+  padding-left: 2px;
+  padding-right: 2px;
+  height:40px;
+  margin:8px;
+}
+
+.MPG{
+  padding:8px;
+}
+.MPG button{
+  color:rgb(5, 121, 86);
+  border-radius: 1px;
+  border-color: rgb(19, 189, 31);
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  padding:5px;
+}

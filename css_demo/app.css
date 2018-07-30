@@ -1,0 +1,115 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: lightpink;
+}
+
+div {
+  padding: 5px;
+  margin: 10px;
+  background-color: lightblue;
+}
+
+div.fancy{
+  box-shadow: 1px 1px 5px #444444;
+}
+
+div.awesome{
+  text-shadow: 1px 1px 3px white;
+}
+
+div#number_one {
+  transform: rotate(-2deg);
+
+}
+
+
+/* Style for flex demo */
+.container{
+  display: flex;
+}
+
+.left{
+  flex: 1;
+  background-color: pink;
+}
+
+.main{
+  flex:
+}
+
+.right{
+  flex: 1;
+  background-color: lightblue;
+}
+
+
+
+/* Styles for real_position_demo */
+
+div{
+  display: block;
+  position: relative;
+  margin: 20px;
+}
+
+
+
+.static-pos{
+  background-color: lightpink;
+}
+
+
+.absolute-pos{
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  background-color: lightblue;
+}
+
+
+.fixed-pos{
+  position: fixed;
+  top: 200px;
+  left: 200px;
+  background-color: lightgreen;
+}
+
+
+.relative-pos{
+  position: relative;
+  top: 500px;
+  left: 500px;
+  background-color: salmon;
+}
+
+
+
+.action{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+
+.delete{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+
+
+.button{
+  cursor: pointer;
+
+  padding: 2px 6px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+
+.button:hover{
+  color: white;
+  background-color: black;
+}

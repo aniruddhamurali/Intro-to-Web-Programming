@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;     /* center vertically*/
+  justify-content: center; /* center horizontally*/
+  background-color: green;
+}
+
+canvas {
+  border-radius: 15px;
+  background-color: black;
+}

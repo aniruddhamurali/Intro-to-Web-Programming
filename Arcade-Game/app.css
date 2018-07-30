@@ -1,0 +1,17 @@
+.button{
+  position:absolute;
+  top:80%;
+  left:40%;
+
+  color: white;
+  border: 1px solid rgb(20, 254, 65);
+  border-radius: 5px;
+  padding:15px 20px;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  color:red;
+  background: black;
+}

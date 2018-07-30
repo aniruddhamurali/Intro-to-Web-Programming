@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;     /* center vertically*/
+  justify-content: center; /* center horizontally*/
+  background-color: lightgrey;
+}
+
+canvas {
+  /*height: 600px;*/
+
+  border-radius: 15px;
+  box-shadow: 0 0 10px #444;
+
+  background-color: white;
+}

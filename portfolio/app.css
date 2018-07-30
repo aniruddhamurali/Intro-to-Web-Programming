@@ -1,0 +1,49 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+
+}
+div{
+  font-family: sans-serif;
+}
+img{
+  position: absolute;
+  top: 97px;
+  left: 550px;
+}
+.border{
+  background-color: #111144;
+}
+#left{
+  flex: 1;
+  background-color: #111144;
+}
+#right{
+  flex: 1;
+  margin-right: 200px;
+  background-color: #111144;
+}
+.text{
+  flex: 5;
+}
+.container{
+  padding-left: 185px;
+  display: flex;
+}
+.title{
+  text-decoration: underline;
+  padding: 25px;
+  font-size: 50px;
+}
+.header{
+  text-decoration: underline;
+  padding: 15px;
+  font-size: 25px;
+}
+.list{
+  margin: 15px;
+  font-size: 18px;
+}
+.code{
+  padding: 50px;
+}

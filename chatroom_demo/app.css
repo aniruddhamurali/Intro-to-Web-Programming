@@ -1,0 +1,48 @@
+.chats {
+  width: 500px;
+  height: 300px;
+
+  margin: 10px;
+  border: 1px solid black;
+  padding: 5px;
+
+  overflow-y: scroll;
+}
+
+.chats .chat {
+  display: flex;
+  flex-direction: row;
+
+  margin: 5px;
+}
+
+.chats .chat .username {
+  width: 150px;
+
+  margin-right: 10px;
+
+  text-align: right;
+  font-weight: bold;
+}
+
+.chats .chat .message {
+  flex: 1;
+}
+
+.chat-actions {
+  display: flex;
+  flex-direction: row;
+
+  width: 517px;
+
+  margin: 10px;
+}
+
+input, button {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.chat-actions .chat-message {
+  flex: 1;
+}
