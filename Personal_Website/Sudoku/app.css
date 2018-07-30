@@ -1,0 +1,103 @@
+body {
+  margin-top: 20px;
+}
+
+table {
+  margin-top: -35px;
+  border: 5px solid black;
+}
+
+td {
+  border: 3px solid black;
+  width: 50px;
+  height: 50px;
+
+  font-size: 24px;
+  text-align: center;
+}
+
+.filler {
+  flex: 1;
+}
+
+.realcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  width: 30px;
+  height: 30px;
+  cursor: text;
+
+  font-size: 24px;
+  text-align: center;
+}
+
+.checkButton {
+  background-color: lightblue;
+  width: 120px;
+  height: 75px;
+  border: 2px solid black;
+  cursor: pointer;
+
+  text-align: center;
+  line-height: 75px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-top: 250px;
+}
+
+
+.reset {
+  background-color: lightblue;
+  width: 120px;
+  height: 75px;
+  border: 2px solid black;
+  cursor: pointer;
+
+  text-align: center;
+  line-height: 75px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+
+.result {
+  background-color: lightgray;
+
+  width: 500px;
+  height: 50px;
+  border: 1px solid black;
+
+  text-align: center;
+  font-size: 35px;
+
+  margin-top: -30px;
+  margin-left: 25px;
+  padding-top: 5px;
+}
+
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: -10px;
+}
+
+
+.timeTracker {
+  width: 210px;
+  height: 60px;
+  border: 1px solid black;
+  border-style: dotted;
+
+  margin-top: 315px;
+  font-size: 24px;
+  padding-left: 8px;
+  padding-top: 4px;
+}

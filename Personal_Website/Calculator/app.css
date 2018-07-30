@@ -1,0 +1,75 @@
+body {
+  justify-content: center;
+  align-items: center;
+}
+
+.realcontainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.filler{
+  flex: 1;
+}
+
+.container {
+  min-width: 488px;
+}
+
+@media (max-width: 488px) {
+  .container {
+    width: 100% auto;
+    min-width: auto;
+  }
+}
+
+
+.display {
+  width: 486px;
+  height: 75px;
+  border: 2px solid black;
+  border-radius: 5px;
+
+  margin-bottom: 15px;
+
+  font-size: 50px;
+  text-align: right;
+  vertical-align: middle;
+}
+
+
+td {
+  border: 2px solid black;
+  border-radius: 5px;
+
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 45px;
+}
+
+td:hover {
+  box-shadow: 3px 3px 3px black;
+  cursor: pointer;
+}
+
+
+.numButton {
+  background-color: orange;
+}
+
+.mainOperator {
+  background-color: red;
+}
+
+.operator {
+  background-color: lightgray;
+}
+
+.equal {
+  background-color: yellow;
+}
+
+.reset {
+  background-color: lightblue;
+  font-size: 30px;
+}

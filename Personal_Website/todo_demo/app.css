@@ -1,0 +1,85 @@
+/* Container */
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  min-width: 640px;
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: 100%;
+    min-width: auto;
+  }
+}
+
+/* Todo-actions */
+
+.todo-actions {
+  display: flex;
+  flex-direction: row;
+
+  margin: 15px;
+}
+
+.todo-actions input {
+  flex: 1;
+}
+
+.todo-actions button, .todo-actions input {
+  margin: 3px;
+  padding: 6px;
+}
+
+/* Todos */
+
+.todos {
+  margin: 15px;
+}
+
+/* Todo */
+
+.todo {
+  display: flex;
+  flex-direction: row;
+
+  margin: 3px;
+  padding: 6px;
+}
+
+.todo.done {
+  color: darkgray;
+}
+
+.todo.done .item {
+  text-decoration: line-through;
+}
+
+.todo .check .fa-square-o {
+  display: inline;
+}
+
+.todo .check .fa-check-square-o {
+  display: none;
+}
+
+.todo.done .check .fa-square-o {
+  display: none;
+}
+
+.todo.done .check .fa-check-square-o {
+  display: inline;
+}
+
+.todo .check {
+  width: 30px;
+
+  cursor: pointer;
+}
+
+.todo .item {
+  flex: 1;
+}
